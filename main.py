@@ -9,7 +9,8 @@ from select_kvest import show_kvest_info
 from sqlquery import read_data_age, read_data_members, read_data_scary, read_data_rating, read_data_type, get_url_query
 from states import UserInputState
 
-BOT_TOKEN = '6086834720:AAF-xptg9XdY-gjzWVBOpcux89MWpIbnnyQ'
+
+BOT_TOKEN = "MY_TOKEN"
 bot = telebot.TeleBot(token=BOT_TOKEN)
 
 
