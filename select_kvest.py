@@ -12,7 +12,6 @@ def show_kvest_info(url):
     r = get(urls)
     soup = bs(r.text, 'lxml')
     # print(soup)
-    # description = soup.find(attrs={'itemprop': 'description'}).find_all('p')
     description = soup.find(attrs={'itemprop': 'description'}).find_all('p')
     a = [i.contents for i in description]
     # descr_data = []
